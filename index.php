@@ -30,7 +30,7 @@ $appointmentMessage = htmlspecialchars($_POST['message'] ?? '', ENT_QUOTES, 'UTF
 
     if ($result !== false) {
         // Redirect to main page with success message
-        header("Location: indexMain.html?success=1");
+        header("Location: index.html?success=1");
         exit;
     } else {
         // Check if the file is writable
@@ -43,7 +43,7 @@ $appointmentMessage = htmlspecialchars($_POST['message'] ?? '', ENT_QUOTES, 'UTF
     }
 } else {
     // Redirect to main page if accessed directly
-    header("Location: indexMain.html");
+    header("Location: index.html");
     exit;
 }
 ?>
