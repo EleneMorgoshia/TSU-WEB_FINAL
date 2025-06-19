@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/style-media.css">
+</head>
+<body>
+  <header>
+    <!--logo - big screen-->
+    <div class="header__logoDiv">
+      <a href="/index.html"><img src="/images/LOGO.svg" alt="hospital LOGO"></a>
+    </div>
+
+    <div class="header__logoSmallScreenDiv">
+      <a href="/index.html"><img src="/images/small logo.svg" alt=""></a>
+    </div>
+    <!--navbar-->
+    <nav class="header__navBar">
+      <a href="/aboutUs.html"  class="header__links">About us</a>
+      <a href="/service.html" class="header__links">Services</a>
+      <a href="/news.html" class="header__links">News</a>
+      <a href="/contact.html" class="header__links">Contact</a>
+    </nav>
+
+    <!--CTAS-->
+    <div class="header__ctasParentDiv">
+      <!--Appointment CTA-->
+      <div id="appointmentCTA" class="heaader__appointmentDiv">
+        <p>Appointment</p>
+        <img src="/images/appointment-cta.svg" alt="appointment-cta-icon">
+      </div>
+
+      <!--Login/Sign up cta-->
+      <div id="openCta" class="header__logInDiv">
+        <img id="userIcon" src="/images/singin-cta.svg" alt="user icon">
+      </div>
+
+      <!--language icon-->
+      <div class="header__languageDiv">
+        <img src="/images/language-cta.svg" alt="language icon">
+      </div>
+
+      <!--burger menu-->
+      <div class="header__burgerMenu">
+        <img src="/images/burgermenu-icon.svg" alt="">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!--Section1 - video-->
+    <section class="main__videoSection">
+      <video autoplay muted loop class="bg-video" poster="/path/to/last-frame.jpg">
+        <source src="/video/home-page-background.mp4" type="video/mp4">
+      </video>
+
+      <div class="main__stopDiv">
+        <img src="/images/stopVideoIcon.svg" alt="">
+      </div>
+    </section>
+
+    <!--Section2 - About us -->
+    <section class="main__aboutUsSeciton">
+      <!--left side - IMAGES-->
+      <div class="main__leftContent">
+        <!--left- one img-->
+        <div class="main__leftImg">
+          <img class="main__leftImage" src="/images/login-img.jpg" alt="">
+        </div>
+        <!--right - two imgs-->
+        <div class="main__rightImgs">
+          <img  class="main__rightImages"  src="/images/recover-3.jpg" alt="">
+          <img  class="main__rightImages" src="/images/recover-4.jpg" alt="">
+        </div>
+      </div>
+      <!--rigth content-->
+      <div class="main__rightContent">
+        <h2 class="main__aboutTitle">About PulsePoint</h2>
+        <div class="main__textDiv">
+          <p class="main__text">
+            At Pulsepoint, our mission is to lead the way in heart health, 
+            ensuring that every heartbeat counts. Founded on July 20, 1969, 
+            Pulsepoint has been a pioneer in cardiology for over five decades. 
+            Our clinic is dedicated to providing top-notch care in cardiology, 
+            leveraging the latest advancements in medical science to offer 
+            innovative treatments and personalized care plans.
+          </p>
+          <p class="main__text second">
+            Our comprehensive services include Cardio-Surgery, 
+            Emergency Medicine,Therapy/Internal Medicine, and 
+            Therapy/Rehabilitation. We specialize in treating 
+            a wide range of cardiovascular conditions, from routine 
+            check-ups to complex surgeries. At Pulsepoint, we believe 
+            in a holistic approach to heart health, focusing on prevention, 
+            treatment, and rehabilitation.
+            Join us at Pulsepoint, where your heart health is our top priority.
+          </p>
+        </div>
+
+        <!--learn morediv-->
+        <div class="main__goToCtaDiv">
+          <a class="main__links" href="/aboutUs.html"><div class="main__ctaDiv">
+            <p>Learn More</p>
+            <img src="/images/right-icon.svg" alt="">
+          </div></a>
+        </div>
+      </div>
+    </section>
+
+    <!--services seciton-->
+    <section class="main__servicesSeciton">
+      <!--header of the services-->
+      <div class="main__servicesTopDiv">
+        <h2 class="main__servicesTitle">Medical Services</h2>
+        <!--go to cta-->
+        <a class="main__links"  href="/service.html"><div class="main__ctaDiv">
+          <p>Learn More</p>
+          <img src="/images/right-icon.svg" alt="">
+        </div></a>
+      </div>
+      <!--services div-->
+      <div class="main__servicesDiv">
+        <!--Emergency service-->
+        <div class="main__emergencyService childDiv">
+          <div class="main__emergencyTopDiv top">
+            <a href="/service.html">
+              <img  class="main__servicesIcons" src="/images/ambulance-icon.png" alt="">
+            </a>
+          </div>
+          <p class="main__serviceMiddleTitle">Emergency</p>
+          <p class="main__serviceDescr">
+            At Pulsepoint Clinic, our Emergency Medicine department delivers expert, 
+            compassionate care for all medical emergencies.
+          </p>
+        </div>
+
+        <!--Theraphy-->
+        <div class="main__theraphyDiv childDiv">
+          <div class="main__theraphyTopDiv top">
+            <a href="/service.html">
+              <img class="main__servicesIcons" src="/images/consultation-icon.png" alt="">
+            </a>
+          </div>
+          <p class="main__serviceMiddleTitle">Therapy/Internal Medicine</p>
+          <p class="main__serviceDescr">
+            At Pulsepoint, our Therapy/Internal Medicine department specializes in 
+            comprehensive care for chronic illnesses, complex health issues, and 
+            preventive medicine.
+          </p>
+        </div>
+      
+        <!--Cardio-->
+        <div class="main__cardioDIv childDiv">
+          <div class="main__cardioTopDiv top">
+            <a href="/service.html">
+              <img class="main__servicesIcons" src="/images/cardio.avif" alt="">
+            </a>
+          </div>
+          <p class="main__serviceMiddleTitle">Cardio Surgery</p>
+          <p class="main__serviceDescr">
+            At Pulsepoint Clinic, our Cardio-Surgery department offers advanced care 
+            for heart conditions, ensuring optimal outcomes with compassion and 
+            precision.
+          </p>
+        </div>
+        <!--theraphy rehabilitation-->
+        <div class="main__rehabilitationDiv childDiv">
+          <div class="main__rehababilitationTopDiv top">
+            <a href="/service.html">
+              <img class="main__servicesIcons" src="/images/rehabilitation-icon.png" alt="">
+            </a>
+          </div>
+          <p class="main__serviceMiddleTitle">Therapy/Rehabilitation</p>
+          <p class="main__serviceDescr">
+            At Pulsepoint Clinic, our Therapy/Rehabilitation department offers expert, 
+            personalized care for patient recovery with compassion and tailored treatment 
+            plans.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--article/news sections-->
+    <section class="main__newsSection">
+      <!--header of the news-->
+      <div class="main__newsHeaderDiv">
+        <h2 class="main__newsSectionTitle">News</h2>
+        <!--go to cta-->
+        <a class="main__links" href="/news.html"><div class="main__ctaDiv">
+          <p>Learn More</p>
+          <img src="/images/right-icon.svg" alt="">
+        </div></a>
+      </div>
+
+      <div class="main__news">
+        <!--first child-->
+        <div class="main__newsChild">
+          <img class="main__newsImg" src="/images/new2.jpg" alt="">
+          <div class="main__newsLeft">
+            <h3 class="main__newsTitle">Rehabilitation Technology</h3>
+            <p class="main__newsDescr">
+              New tools help patients recover faster after surgery.
+              Wearable devices track movement and progress.
+              Therapists use this data to guide better healing.
+              Experts use collected data to support faster, safer, and more effective recovery...
+            </p>
+            <button class="main__newsBtn"><a class="main__links" href="/news.html">Read More</a></button>
+          </div>
+        </div>
+        <!--second child-->
+         <div class="main__newsChild">
+          <img  class="main__newsImg" src="/images/recover-3.jpg" alt="">
+          <div class="main__newsLeft">
+            <h3 class="main__newsTitle">Post-Surgery Support</h3>
+            <p class="main__newsDescr">
+              Care doesn’t stop after the operation ends.
+              Follow-up tools monitor pain, meds, and healing.
+              This ensures patients stay safe and feel supported.
+            </p>
+            <button class="main__newsBtn"><a class="main__links" href="/news.html">Read More</a></button>
+          </div>
+        </div>
+        <!--third child-->
+         <div class="main__newsChild">
+          <img  class="main__newsImg" src="/images/news1.jpg" alt="">
+          <div class="main__newsLeft">
+            <h3 class="main__newsTitle">Patient Communication</h3>
+            <p class="main__newsDescr">
+              Modern apps keep patients and doctors connected.
+              Messages, updates, and reminders improve care.
+              It builds trust and reduces confusion.
+              Patients can ask questions anytime they need support...
+            </p>
+            <button class="main__newsBtn"><a class="main__links" href="/news.html">Read More</a></button>
+          </div>
+        </div>
+        <!--forth child-->
+        <div class="main__newsChild">
+          <img  class="main__newsImg" src="/images//news4.jpg" alt="">
+          <div class="main__newsLeft">
+            <h3 class="main__newsTitle">Tech in  Medicine</h3>
+            <p class="main__newsDescr">
+              Medicine is changing fast with the help of technology.
+              AI now helps doctors detect diseases earlier and more accurately.
+              Robotic tools allow for safer, less invasive surgeries...
+            </p>
+            <button class="main__newsBtn"><a class="main__links" href="/news.html">Read More</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact-->
+    <section class="main__contactSection">
+      <h2 class="main__contactTitle">Contact Us</h2>
+      <div class="main__contactDiv">
+        <form class="main__form">
+          <div class="main__inputDivs">
+            <input type="text" placeholder="Enter Your name"> 
+            <input  class="main__leftInpt" type="text" placeholder="Enter your Lastname">
+          </div>
+          <div class="main__inputDivs">
+            <input type="email" placeholder="Enter your email">
+            <input class="main__leftInpt" type="number" placeholder="Enter your number">
+          </div>
+          <input id="main__meeageInput" class="main__messageInput" type="text" placeholder="Message"> <br>
+          <button class="main__formBtn">Send Message</button> 
+        </form>
+
+        <div class="main__mapImgSide">
+          <img class="main__mapImg" src="/images/map.jpeg" alt="" width="200" height="200">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- additional div for the registration-->
+  <div id="motherContainer" class="signIn-signUp-div">
+    <!--sign in - that will be appeared first-->
+    <div id="signInContainer" class="signInDiv">
+      <!--X icon-->
+      <div class="closeIconDiv">
+        <img id="signInClose" class="closeIcon" src="/images/close-Icon.svg" alt="">
+      </div>
+      <h1>Sign In</h1>
+      <!--form where user enters his/her info-->
+      <form class="signIn_Form">
+        <input id="userInputName" class="userInput" type="text" placeholder="Enter Your Name" required>
+        <input id="userInputPassoword" class="userInput" type="password" placeholder="Enter your Password" required>
+      </form>
+      <div class="signIn-regstr-btnsDiv">
+        <button id="signInBtn" class="sigIn-button">Sign In</button>
+        <button id="regBtnInSignPage" class="registration-button">Registration</button>
+      </div>
+    </div>
+
+    <!--REGISTRATION-->
+    <div id="registrationContainer" class="registration">
+      <!--X icon-->
+      <div class="closeIconDiv">
+        <img id="regClose" class="closeIcon" src="/images/close-Icon.svg" alt="">
+      </div>
+      <h1>Registration</h1>
+      <form class="regirstration_Form">
+        <div class="regInputsDiv">
+          <input id="registrationName"  type="email" placeholder="Enter Your Name" required>
+          <input id="registrationLastname" type="text" placeholder="Enter your LastName" required>
+        </div>
+        <div class="regInputsDiv">
+          <input id="registrationEmail" type="email" placeholder="Enter your email" required>
+          <input id="registrationPassword" type="password" placeholder="Enter the password" required>
+        </div>  
+      </form>
+      <div class="signIn-regstr-btnsDiv">
+        <button id="regitrationButton" class="regBtn">Registration</button>
+        <button id="backToSignInBtn" class="backToSignInBtn">Back to Sign In</button>
+      </div>
+    </div>
+
+    <!--Signed in user info Div-->
+    <div id="signedInUserDiv" class="signedInUser">
+      <!--X icon-->
+      <div class="closeIconDiv">
+        <img id="signedInClose" class="closeIcon" src="/images/close-Icon.svg" alt="">
+      </div>
+      <h1>Welcome Back<span></span></h1>
+      <div class="singedUserInfo"> 
+        <p class="userInformation">Your userName:<span id="userNameDisplay"></span></p>
+        <p class="userInformation">Your password:<span id="userPasswordDisplay"></span></p>
+      </div>
+      <button id="signOutBtn" class="signOutBtn">Sign out</button>
+    </div>
+  </div>
+
+  <!-- additional div for the Appointment-->
+  <div id="appointmentDiv" class="appointmentDiv">
+    <!--X icon-->
+    <div class="closeIconDiv">
+      <img  id="appointmentClose" class="closeIcon" src="/images/close-Icon.svg" alt="">
+    </div>
+    <h1>Make An Appointment</h1>
+    <form method="POST" action="index.php">
+      <div class="appointmentInputDiv">
+        <input type="text" name="firstName" placeholder="Enter Your name" required>
+        <input type="text" name="lastName" placeholder="Enter your LastName" required>
+      </div>
+      <div class="appointmentInputDiv">
+        <input type="number" name="phoneNumber" placeholder="Enter Your Number" required>
+        <input type="date" name="appointmentDate" required>
+      </div>
+      <input id="appointmentMessage" class="appointmentMessageInput" type="text" name="message" placeholder="Please describe your symptoms or the reason for your visit" required>
+      <button id="appointmentButton" class="appointmentButton" type="submit">Submit</button>
+    </form>
+  </div>
+  
+  <footer>
+    <!--logo div-->
+    <div class="footer__logo">
+      <a href="/index.html"><img src="/images/LOGO.svg" alt=""></a>
+    </div>
+
+    <!--NAVIGATION DIV-->
+    <div class="footer__navigation">
+      <!--links-->
+      <div class="footer__linksDiv">
+        <h4 class="footer__titles">Navigation</h4>
+        <a class="footer__links" href="/aboutUs.html">About Us</a>
+        <a class="footer__links" href="/service.html">Services</a>
+        <a class="footer__links" href="/news.html">News</a>
+        <a class="footer__links" href="/contact.html">Contact</a>
+      </div>
+
+      <!--departments-->
+      <div class="footer__departments">
+        <h4 class="footer__titles">Departments</h4>
+        <a class="footer_depLinks" href="/service.css">Cardio-Surgery</a>
+        <a class="footer_depLinks" href="/service.html">Emergency </a>
+        <a class="footer_depLinks" href="/service.html">Therapy/Internal </a>
+        <a class="footer_depLinks" href="/service.html">Therapy/Rehabilitation</a>
+      </div>
+
+      <!-- for a small screen -->
+      <div class="main__smallScreenNavg">
+        <p>Navigation</p>
+        <img src="/images/upIcon.svg" alt="">
+      </div>
+
+      <div class="main__smallScreenNavg">
+        <p>Departments</p>
+        <img src="/images/upIcon.svg" alt="">
+      </div>
+
+      <div class="main__smallScreenNavg">
+        <p>Contact</p>
+        <img src="/images/upIcon.svg" alt="">
+      </div>
+      <!--Contact info-->
+      <div class="footer__contactInfo">
+        <h4 class="footer__titles contactT" >Contact:</h4>
+        <p class="footer__contactInfoP">Email Address:<span>PulsePoint@gmail.com</span></p>
+        <p class="footer__contactInfoP">Emergency:<span>(237) 681-812-255</span></p>
+        <p class="footer__contactInfoP">Location:<span>107-70 Stockholm, Sweden</span></p>
+      </div>
+    </div>
+
+    <!--copyright-->
+    <div class="footer__copyRightDiv">
+      <p class="copyRight">All Rights Reserved by © 2025</p>
+      <div class="footer__footerCtas">
+        <div class="footer__secondaryCta heartIcon" >
+          <img class="footer__ctaImg heartIconImg" src="/images/twitter.svg" alt="">
+        </div>
+    
+        <div class="footer__secondaryCta shoppingCartIcon" id="instagram">
+          <img class="ctaImg cartImg" src="/images/instagram.svg" alt="">
+        </div>
+    
+        <div  class="footer__secondaryCta lightMode" id="facebook">
+          <img class="ctaImg lightModeImg" src="/images/facebook.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/signIn-Registration.js"></script>
+  <script src="/appointment.js"></script>
+
+</body>
+</html>

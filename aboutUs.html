@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/aboutUs.css">
+  <link rel="stylesheet" href="/aboutUs-media.css">
+</head>
+<body>
+  <header>
+    <!--logo - big screen-->
+    <div class="header__logoDiv">
+      <a href="/index.html"><img src="/images/LOGO.svg" alt="hospital LOGO"></a>
+    </div>
+
+    <div class="header__logoSmallScreenDiv">
+      <a href="/index.html"><img src="/images/small logo.svg" alt=""></a>
+    </div>
+    <!--navbar-->
+    <nav class="header__navBar">
+      <a href="/aboutUs.html"  class="header__links">About us</a>
+      <a href="/service.html" class="header__links">Services</a>
+      <a href="/news.html" class="header__links">News</a>
+      <a href="/contact.html" class="header__links">Contact</a>
+    </nav>
+
+    <!--CTAS-->
+    <div class="header__ctasParentDiv">
+      <!--Appointment CTA-->
+      <div class="heaader__appointmentDiv">
+        <p>Appointment</p>
+        <img src="/images/appointment-cta.svg" alt="appointment-cta-icon">
+      </div>
+
+      <!--Login/Sign up cta-->
+      <div class="header__logInDiv">
+        <img src="/images/singin-cta.svg" alt="user icon">
+      </div>
+
+      <!--language icon-->
+      <div class="header__languageDiv">
+        <img src="/images/language-cta.svg" alt="language icon">
+      </div>
+
+      <!--burger menu-->
+      <div class="header__burgerMenu">
+        <img src="/images/burgermenu-icon.svg" alt="">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!--first about us Section  - slider-->
+    <section class="main__sliderSection">
+      <!--Div where all the iages will be set-->
+      <div id="sliderDiv" class="sliderDiv">
+        <img id="slideImg" class="slideImg" src="" alt="">
+        <div class="ctasDiv">
+          <button onclick="nextSlide()" class="leftSliderBtn"><img src="/images/leftBtn.svg" alt=""></button>
+          <button onclick="prevSlide()" class="rightSliderBtn"><img src="/images/rightBtn.svg" alt=""></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="main__aboutUsSeciton">
+      <!--left side - IMAGES-->
+      <div class="main__leftContent">
+        <!--left- one img-->
+        <div class="main__leftImg">
+          <img class="main__leftImage" src="/images/login-img.jpg" alt="">
+        </div>
+        <!--right - two imgs-->
+        <div class="main__rightImgs">
+          <img  class="main__rightImages"  src="/images/recover-3.jpg" alt="">
+          <img  class="main__rightImages" src="/images/recover-4.jpg" alt="">
+        </div>
+      </div>
+      <!--rigth content-->
+      <div class="main__rightContent">
+        <h2 class="main__aboutTitle">About PulsePoint</h2>
+        <div class="main__textDiv">
+          <p class="main__text">
+            At Pulsepoint, our mission is to lead the way in heart health, 
+            ensuring that every heartbeat counts. Founded on July 20, 1969, 
+            Pulsepoint has been a pioneer in cardiology for over five decades. 
+            Our clinic is dedicated to providing top-notch care in cardiology, 
+            leveraging the latest advancements in medical science to offer 
+            innovative treatments and personalized care plans.
+          </p>
+          <p class="main__text second">
+            Our comprehensive services include Cardio-Surgery, 
+            Emergency Medicine,Therapy/Internal Medicine, and 
+            Therapy/Rehabilitation. We specialize in treating 
+            a wide range of cardiovascular conditions, from routine 
+            check-ups to complex surgeries. At Pulsepoint, we believe 
+            in a holistic approach to heart health, focusing on prevention, 
+            treatment, and rehabilitation.
+            Join us at Pulsepoint, where your heart health is our top priority.
+          </p>
+        </div>
+
+        <!--learn morediv-->
+        <div class="main__goToCtaDiv">
+          <div class="main__ctaDiv">
+            <p>Learn More</p>
+            <img src="/images/right-icon.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Doctors section-->
+    <section class="main__doctorsSection">
+      <h2 class="main__doctorsTitle">Top Doctors</h2>
+      <div class="main__doctorsParentDiv">
+        <!--child1-->
+        <div class="main__doctorsChild">
+          <!--doctor's img-->
+          <img class="main__doctorImg" src="/images/firstDoctor.jpg" alt="">
+          <!--about doctor -->
+          <div class="main__doctorInfo">
+            <div class="main__nameVsSp">
+              <h3 class="main__doctorName">Dr. Isabelle Fournier</h3>
+              <p class="main__specialty">Specialty:<span class="main__specialtySpan">Cardiologist</span></p>
+            </div>
+            <div class="main__aboutDoctor">
+              <p>
+                Over 16 years of experience treating heart conditions. Known for her warm approach and clear communication.
+              </p>
+            </div>
+          </div>
+          <!--buttons-->
+          <div class="main__doctorBtnsDiv">
+            <button class="main__appointmentBtn">Appointment</button>
+            <button class="main__viewProfileBtn">View Profile</button>
+          </div>
+        </div>
+
+        <!--child3-->
+        <div class="main__doctorsChild">
+          <!--doctor's img-->
+          <img class="main__doctorImg" src="/images/firstDoctor.jpg" alt="">
+          <!--about doctor -->
+          <div class="main__doctorInfo">
+            <div class="main__nameVsSp">
+              <h3 class="main__doctorName">Dr. Isabelle Fournier</h3>
+              <p class="main__specialty">Specialty:<span class="main__specialtySpan">Cardiologist</span></p>
+            </div>
+            <div class="main__aboutDoctor">
+              <p>
+                Over 16 years of experience treating heart conditions. Known for her warm approach and clear communication.
+              </p>
+            </div>
+          </div>
+          <!--buttons-->
+          <div class="main__doctorBtnsDiv">
+            <button class="main__appointmentBtn">Appointment</button>
+            <button class="main__viewProfileBtn">View Profile</button>
+          </div>
+        </div>
+        <!--child1-->
+        <div class="main__doctorsChild">
+          <!--doctor's img-->
+          <img class="main__doctorImg" src="/images/firstDoctor.jpg" alt="">
+          <!--about doctor -->
+          <div class="main__doctorInfo">
+            <div class="main__nameVsSp">
+              <h3 class="main__doctorName">Dr. Isabelle Fournier</h3>
+              <p class="main__specialty">Specialty:<span class="main__specialtySpan">Cardiologist</span></p>
+            </div>
+            <div class="main__aboutDoctor">
+              <p>
+                Over 16 years of experience treating heart conditions. Known for her warm approach and clear communication.
+              </p>
+            </div>
+          </div>
+          <!--buttons-->
+          <div class="main__doctorBtnsDiv">
+            <button class="main__appointmentBtn">Appointment</button>
+            <button class="main__viewProfileBtn">View Profile</button>
+          </div>
+        </div>
+
+        <!--child1-->
+        <div class="main__doctorsChild">
+          <!--doctor's img-->
+          <img class="main__doctorImg" src="/images/firstDoctor.jpg" alt="">
+          <!--about doctor -->
+          <div class="main__doctorInfo">
+            <div class="main__nameVsSp">
+              <h3 class="main__doctorName">Dr. Isabelle Fournier</h3>
+              <p class="main__specialty">Specialty:<span class="main__specialtySpan">Cardiologist</span></p>
+            </div>
+            <div class="main__aboutDoctor">
+              <p>
+                Over 16 years of experience treating heart conditions. Known for her warm approach and clear communication.
+              </p>
+            </div>
+          </div>
+          <!--buttons-->
+          <div class="main__doctorBtnsDiv">
+            <button class="main__appointmentBtn">Appointment</button>
+            <button class="main__viewProfileBtn">View Profile</button>
+          </div>
+        </div>
+
+        
+        <!--child1-->
+        <div class="main__doctorsChild">
+          <!--doctor's img-->
+          <img class="main__doctorImg" src="/images/firstDoctor.jpg" alt="">
+          <!--about doctor -->
+          <div class="main__doctorInfo">
+            <div class="main__nameVsSp">
+              <h3 class="main__doctorName">Dr. Isabelle Fournier</h3>
+              <p class="main__specialty">Specialty:<span class="main__specialtySpan">Cardiologist</span></p>
+            </div>
+            <div class="main__aboutDoctor">
+              <p>
+                Over 16 years of experience treating heart conditions. Known for her warm approach and clear communication.
+              </p>
+            </div>
+          </div>
+          <!--buttons-->
+          <div class="main__doctorBtnsDiv">
+            <button class="main__appointmentBtn">Appointment</button>
+            <button class="main__viewProfileBtn">View Profile</button>
+          </div>
+        </div>
+
+        
+        <!--child1-->
+        <div class="main__doctorsChild">
+          <!--doctor's img-->
+          <img class="main__doctorImg" src="/images/firstDoctor.jpg" alt="">
+          <!--about doctor -->
+          <div class="main__doctorInfo">
+            <div class="main__nameVsSp">
+              <h3 class="main__doctorName">Dr. Isabelle Fournier</h3>
+              <p class="main__specialty">Specialty:<span class="main__specialtySpan">Cardiologist</span></p>
+            </div>
+            <div class="main__aboutDoctor">
+              <p>
+                Over 16 years of experience treating heart conditions. Known for her warm approach and clear communication.
+              </p>
+            </div>
+          </div>
+          <!--buttons-->
+          <div class="main__doctorBtnsDiv">
+            <button class="main__appointmentBtn">Appointment</button>
+            <button class="main__viewProfileBtn">View Profile</button>
+          </div>
+        </div>
+
+        
+        <!--child1-->
+        <div class="main__doctorsChild">
+          <!--doctor's img-->
+          <img class="main__doctorImg" src="/images/firstDoctor.jpg" alt="">
+          <!--about doctor -->
+          <div class="main__doctorInfo">
+            <div class="main__nameVsSp">
+              <h3 class="main__doctorName">Dr. Isabelle Fournier</h3>
+              <p class="main__specialty">Specialty:<span class="main__specialtySpan">Cardiologist</span></p>
+            </div>
+            <div class="main__aboutDoctor">
+              <p>
+                Over 16 years of experience treating heart conditions. Known for her warm approach and clear communication.
+              </p>
+            </div>
+          </div>
+          <!--buttons-->
+          <div class="main__doctorBtnsDiv">
+            <button class="main__appointmentBtn">Appointment</button>
+            <button class="main__viewProfileBtn">View Profile</button>
+          </div>
+        </div>
+
+        
+        <!--child1-->
+        <div class="main__doctorsChild">
+          <!--doctor's img-->
+          <img class="main__doctorImg" src="/images/firstDoctor.jpg" alt="">
+          <!--about doctor -->
+          <div class="main__doctorInfo">
+            <div class="main__nameVsSp">
+              <h3 class="main__doctorName">Dr. Isabelle Fournier</h3>
+              <p class="main__specialty">Specialty:<span class="main__specialtySpan">Cardiologist</span></p>
+            </div>
+            <div class="main__aboutDoctor">
+              <p>
+                Over 16 years of experience treating heart conditions. Known for her warm approach and clear communication.
+              </p>
+            </div>
+          </div>
+          <!--buttons-->
+          <div class="main__doctorBtnsDiv">
+            <button class="main__appointmentBtn">Appointment</button>
+            <button class="main__viewProfileBtn">View Profile</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+ 
+  <footer>
+    <!--logo div-->
+    <div class="footer__logo">
+      <a href="/index.html"><img src="/images/LOGO.svg" alt=""></a>
+    </div>
+
+    <!--NAVIGATION DIV-->
+    <div class="footer__navigation">
+      <!--links-->
+      <div class="footer__linksDiv">
+        <h4 class="footer__titles">Navigation</h4>
+        <a class="footer__links" href="/aboutUs.html">About Us</a>
+        <a class="footer__links" href="/service.html">Services</a>
+        <a class="footer__links" href="/news.html">News</a>
+        <a class="footer__links" href="/contact.html">Contact</a>
+      </div>
+
+      <!--departments-->
+      <div class="footer__departments">
+        <h4 class="footer__titles">Departments</h4>
+        <a class="footer_depLinks" href="/service.css">Cardio-Surgery</a>
+        <a class="footer_depLinks" href="/service.html">Emergency </a>
+        <a class="footer_depLinks" href="/service.html">Therapy/Internal </a>
+        <a class="footer_depLinks" href="/service.html">Therapy/Rehabilitation</a>
+      </div>
+
+      <!-- for a small screen -->
+      <div class="main__smallScreenNavg">
+        <p>Navigation</p>
+        <img src="/images/upIcon.svg" alt="">
+      </div>
+
+      <div class="main__smallScreenNavg">
+        <p>Departments</p>
+        <img src="/images/upIcon.svg" alt="">
+      </div>
+
+      <div class="main__smallScreenNavg">
+        <p>Contact</p>
+        <img src="/images/upIcon.svg" alt="">
+      </div>
+      <!--Contact info-->
+      <div class="footer__contactInfo">
+        <h4 class="footer__titles contactT" >Contact:</h4>
+        <p class="footer__contactInfoP">Email Address:<span>PulsePoint@gmail.com</span></p>
+        <p class="footer__contactInfoP">Emergency:<span>(237) 681-812-255</span></p>
+        <p class="footer__contactInfoP">Location:<span>107-70 Stockholm, Sweden</span></p>
+      </div>
+    </div>
+
+    <!--copyright-->
+    <div class="footer__copyRightDiv">
+      <p class="copyRight">All Rights Reserved by © 2025</p>
+      <div class="footer__footerCtas">
+        <div class="footer__secondaryCta heartIcon" >
+          <img class="footer__ctaImg heartIconImg" src="/images/twitter.svg" alt="">
+        </div>
+    
+        <div class="footer__secondaryCta shoppingCartIcon" id="instagram">
+          <img class="ctaImg cartImg" src="/images/instagram.svg" alt="">
+        </div>
+    
+        <div  class="footer__secondaryCta lightMode" id="facebook">
+          <img class="ctaImg lightModeImg" src="/images/facebook.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/aboutUs.js"></script>
+</body>
+</html>

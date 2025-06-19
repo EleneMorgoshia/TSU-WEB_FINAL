@@ -1,0 +1,512 @@
+@media(min-width:320px){
+  body{
+    overflow-x: hidden;
+  }
+  header{
+    margin:1rem;
+    gap:2rem;
+  }
+  .header__logoDiv{
+    display:none;
+  }
+
+  .header__logoSmallScreenDiv{
+    display:block;
+  }
+
+  .header__ctasParentDiv{
+    gap:0.3rem;
+  }
+  .header__navBar{
+    display:none;
+  }
+  .heaader__appointmentDiv{
+    display:none;
+  }
+  .header__logInDiv{
+    display:none;
+  }
+
+  /* MAIN */
+  main{
+    margin:0;
+  }
+
+  .slideImg{
+    height:400px;
+  }
+
+  /* about us section */
+  .main__aboutUsSeciton{
+    margin-top:5rem;
+    flex-direction: column; /* changed*/
+  }
+
+  .main__leftContent{
+    flex-direction: column;
+    gap:0.5rem;
+  }
+
+  .main__leftImage{
+    width:100%;
+    height: 13.125rem;
+  }
+
+  .main__rightContent{
+    margin:0.5rem;
+  }
+
+  .main__aboutTitle{
+    font-size:1.2rem;
+  }
+  .main__goToCtaDiv{
+    margin-top:2rem;
+  }
+
+  .main__ctaDiv{
+    width:10rem;
+    text-wrap: nowrap;
+  }
+
+  /* Doctor's section */
+  .main__doctorsSection{
+    margin-top:5rem;;
+  }
+  .main__doctorsTitle{
+    font-size:1.2rem;
+  }
+
+  .main__doctorsParentDiv{
+    grid-template-columns: repeat(1,20rem);
+  }
+  .main__doctorsChild{
+    width:100%;
+  }
+
+/* FOOTER */
+  footer{
+    padding:1rem 1rem;;
+  }
+  .footer__navigation{
+    flex-direction: column;
+    margin:0;
+    gap:0.5rem;
+  }
+  .footer__departments{
+    display:none;
+  }
+  .footer__linksDiv{
+    display:none;
+  }
+  .footer__contactInfo{
+    display:none;
+  }
+  
+  .main__smallScreenNavg{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.5rem;
+    font-size:1.1rem;
+    cursor:pointer;
+  }
+
+  .footer__footerCtas{
+    gap:0.5rem;
+  }
+  /* FOOTER */
+  footer{
+    padding:1rem 1rem;;
+  }
+  .footer__navigation{
+    flex-direction: column;
+    margin:0;
+    gap:0.5rem;
+  }
+  .footer__departments{
+    display:none;
+  }
+  .footer__linksDiv{
+    display:none;
+  }
+  .footer__contactInfo{
+    display:none;
+  }
+  
+  .main__smallScreenNavg{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.5rem;
+    font-size:1.1rem;
+    cursor:pointer;
+  }
+
+  .footer__footerCtas{
+    gap:0.5rem;
+  }
+}
+
+@media(min-width:768px){
+   body{
+    overflow-x: hidden;
+  }
+  header{
+    margin:2rem 4rem;
+    gap:19rem;
+  }
+  /* no need */
+  .header__logoDiv{
+    display:none;
+  }
+
+  .header__logoSmallScreenDiv{
+    display:block;
+  }  /* no need */
+
+  .header__ctasParentDiv{
+    justify-content:flex-end;
+    width:21rem;
+    gap:0.3rem;
+  }
+
+  .header__navBar{
+    display:none;
+  }  /* no need */
+  .heaader__appointmentDiv{
+    display:none;
+  }  /* no need */
+  .header__logInDiv{
+    display:none;
+  }  /* no need */
+ 
+
+  /* MAIN */
+  main{
+    margin:1rem 4rem;
+  }
+
+  .slideImg{
+    height:400px;
+  }
+
+   /* about us section */
+  .main__aboutUsSeciton{
+    margin-top:10rem;
+    flex-direction: column; 
+  }
+
+  .main__leftContent{
+    flex-direction: column;
+    gap:1rem;
+  }/* no need */
+
+  .main__leftImage{
+    width:100%;
+    height:436px;
+  }
+
+  .main__rightContent{
+    margin:0;
+  }
+
+  .main__aboutTitle{
+    font-size:2rem;
+  }
+  .main__goToCtaDiv{
+    margin-top:2rem;
+  }
+
+  /* Doctor's section */
+  .main__doctorsSection{
+    margin-top:5rem;;
+  }
+  .main__doctorsTitle{
+    font-size:2rem;
+  }
+
+  .main__doctorsParentDiv{
+    grid-template-columns: repeat(2,18.5rem);
+  }
+  .main__doctorsChild{
+    width:100%;
+  }
+
+  /* FOOTER */
+  footer{
+    padding:2rem 4rem;;
+  }
+  .footer__navigation{
+    flex-direction:row;
+    margin:0;
+    gap:8.5rem;
+  }
+  .footer__departments{
+    display:none;
+  }
+  .footer__linksDiv{
+    display:none;
+  }
+  .footer__contactInfo{
+    display:none;
+  }
+  
+  .main__smallScreenNavg{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.5rem;
+    font-size:1.1rem;
+    cursor:pointer;
+  }
+  .footer__copyRightDiv{
+    align-items: center;
+  }
+  .footer__footerCtas{
+    gap:0.5rem;
+  }
+
+}
+
+@media(min-width:1280px){
+   body{
+    overflow-x: hidden;
+  }
+  header{
+    margin:2rem 10.5rem;
+    gap:22rem;
+  }
+  /* no need */
+  .header__logoDiv{
+    display:block;
+  }
+
+  .header__logoSmallScreenDiv{
+    display:none;
+  }  /* no need */
+
+  .header__ctasParentDiv{
+    justify-content:flex-end;
+    width:21rem;
+    gap:0.3rem;
+  }
+
+  
+  /* MAIN */
+  main{
+    margin:1rem 10.5rem;
+  }
+
+  .slideImg{
+    height:400px;
+  }
+
+   /* about us section */
+  .main__aboutUsSeciton{
+    margin-top:9.75rem;
+    flex-direction: column; 
+  }
+
+  .main__leftContent{
+    flex-direction:row;
+    gap:1.9rem;
+  }/* no need */
+
+  .main__leftImage{
+    width:580px;
+    height:100%;
+    object-fit:cover;
+  }
+
+  .main__rightContent{
+    margin:0;
+  }
+  .main__aboutTitle{
+    font-size:2.1rem;
+  }
+  .main__goToCtaDiv{
+    margin-top:2rem;
+  }
+
+  /* Doctor's section */
+  .main__doctorsSection{
+    margin-top:5rem;;
+  }
+  .main__doctorsTitle{
+    font-size:2rem;
+  }
+
+  .main__doctorsParentDiv{
+    grid-template-columns: repeat(3,18rem);
+  }
+  .main__doctorsChild{
+    width:100%;
+  }
+
+  /* FOOTER */
+  footer{
+    padding:2rem 10.5rem;
+    margin-top:9rem;
+  }
+  .footer__navigation{
+    flex-direction:row;
+    margin-top:2rem;
+    gap:19rem;
+  }
+  .footer__departments{
+    display:none;
+  }
+  .footer__linksDiv{
+    display:none;
+  }
+  .footer__contactInfo{
+    display:none;
+  }
+  
+  .main__smallScreenNavg{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.5rem;
+    font-size:1.1rem;
+    cursor:pointer;
+  }
+  .footer__copyRightDiv{
+    align-items: center;
+  }
+  .footer__footerCtas{
+    gap:0.5rem;
+  }
+}
+
+@media(min-width:1440px){
+  body{
+    overflow-x: hidden;
+  }
+  header{
+    margin:2rem 10rem;
+    gap:12rem;
+  }
+  .header__logoDiv{
+    display:block;
+    flex:1;
+  }
+
+  .header__navBar{
+    display:flex;
+  } 
+  
+  .header__ctasParentDiv{
+    justify-content:flex-end;
+    width:21rem;
+    gap:0.5rem;
+  }
+  .heaader__appointmentDiv{
+    display:flex;
+  }
+  .header__logInDiv{
+    display:block;
+  } 
+ 
+  .header__burgerMenu{
+    display:none;
+  }
+
+   
+  /* MAIN */
+  main{
+    margin:1rem 10rem;
+  }
+
+  .slideImg{
+    height:610px;
+  }
+ 
+  /* about us section */
+  .main__aboutUsSeciton{
+    margin-top:9rem;
+    flex-direction:row; 
+  }
+
+  .main__leftContent{
+    flex-direction:row;
+    gap:1rem;
+  }
+
+  .main__leftImage{
+    width:536px;
+    height:100%;
+    object-fit:cover;
+  }
+
+  .main__rightImgs{
+    justify-content:safe;
+  }
+  .main__rightImages{
+    height: calc(50% - 0.5rem);
+    width:323px;
+    object-fit: cover;
+    border-radius:0.625rem;
+  }
+  .main__rightContent{
+    margin:0;
+    gap:3.7rem;
+  }
+  .main__aboutTitle{
+    font-size:2.1rem;
+  }
+  .main__goToCtaDiv{
+    margin-top:0rem;
+  }
+
+  .main__ctaDiv{
+    width:11.5rem;
+    text-wrap: nowrap;
+  }
+
+
+  /* Doctor's section */
+  .main__doctorsSection{
+    margin-top:9rem;
+  }
+  .main__doctorsTitle{
+    font-size:2rem;
+  }
+
+  .main__doctorsParentDiv{
+   grid-template-columns: repeat(auto-fit, minmax(21.71rem, 1fr));
+  }
+  .main__doctorsChild{
+    width:100%;
+  }
+
+    /* FOOTER */
+  footer{
+    padding:2rem 10rem;
+    margin-top:9rem;
+  }
+  .footer__navigation{
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top:2rem;
+  }
+  .footer__departments{
+    display:flex;
+  }
+  .footer__linksDiv{
+    display:flex;
+  }
+  .footer__contactInfo{
+    display:flex;
+  }
+  
+  .main__smallScreenNavg{
+    display:none;
+  }
+  .footer__copyRightDiv{
+    align-items: center;
+  }
+  .footer__footerCtas{
+    gap:0.5rem;
+  }
+}

@@ -1,0 +1,423 @@
+@media(min-width:320px){
+  body{
+    overflow-x: hidden;
+  }
+  header{
+    margin:1rem;
+    gap:2rem;
+  }
+  .header__logoDiv{
+    display:none;
+  }
+
+  .header__logoSmallScreenDiv{
+    display:block;
+  }
+
+  .header__ctasParentDiv{
+    gap:0.3rem;
+  }
+  .header__navBar{
+    display:none;
+  }
+  .heaader__appointmentDiv{
+    display:none;
+  }
+  .header__logInDiv{
+    display:none;
+  }
+
+  /* MAIN */
+  main{
+    margin:0;
+  }
+
+  .main__contactSection{
+    margin-top:4rem;
+  }
+
+  .main__contactDiv{
+    margin-top:1rem;
+  }
+
+  .main__form{
+    gap:0.5rem;
+  }
+
+  .main__inputDivs{
+    width:320px;
+    gap:0.5rem;
+  }
+
+  input{
+    width:9.5rem;
+    font-size:14px;
+    height: 3rem;
+  }
+
+  .main__mapImgSide{
+    display:none;
+  }
+
+  /* additional contact info */
+  .main__additionalContactSection{
+    margin-top:5rem;
+    grid-template-columns: repeat(1,15.95rem);
+    justify-content: center;
+  }
+
+  /* FOOTER */
+  footer{
+    padding:1rem 1rem;;
+  }
+  .footer__navigation{
+    flex-direction: column;
+    margin:0;
+    gap:0.5rem;
+  }
+  .footer__departments{
+    display:none;
+  }
+  .footer__linksDiv{
+    display:none;
+  }
+  .footer__contactInfo{
+    display:none;
+  }
+  
+  .main__smallScreenNavg{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.5rem;
+    font-size:1.1rem;
+    cursor:pointer;
+  }
+
+  .footer__footerCtas{
+    gap:0.5rem;
+  }
+}
+
+@media(min-width:768px){
+   body{
+    overflow-x: hidden;
+  }
+  header{
+    margin:2rem 4rem;
+    gap:19rem;
+  }
+  /* no need */
+  .header__logoDiv{
+    display:none;
+  }
+
+  .header__logoSmallScreenDiv{
+    display:block;
+  }  /* no need */
+
+  .header__ctasParentDiv{
+    justify-content:flex-end;
+    width:21rem;
+    gap:0.3rem;
+  }
+
+  .header__navBar{
+    display:none;
+  }  /* no need */
+  .heaader__appointmentDiv{
+    display:none;
+  }  /* no need */
+  .header__logInDiv{
+    display:none;
+  }  /* no need */
+ 
+  /* main */
+  main{
+    margin:1rem 4rem;
+  }
+
+  .main__contactSection{
+    margin-top:4rem;
+  }
+
+  .main__contactDiv{
+    margin-top:1rem;
+  }
+
+  .main__form{
+    gap:1rem;
+  }
+
+  .main__inputDivs{
+    width:max-content;
+    gap:0.5rem;
+  }
+
+  input{
+    width:19.5rem;
+    font-size:14px;
+    height: 3rem;
+  }
+
+  .main__messageInput{
+    width:39rem;
+  }
+  .main__mapImgSide{
+    display:none;
+  }
+
+  /* additional contact info */
+  .main__additionalContactSection{
+    margin-top:5rem;
+    grid-template-columns: repeat(2,18rem);
+    justify-content: center;
+  }
+
+  .additionalContainer{
+    width:18rem;
+  }
+
+   /* FOOTER */
+  footer{
+    padding:2rem 4rem;;
+  }
+  .footer__navigation{
+    flex-direction:row;
+    margin:0;
+    gap:8.5rem;
+  }
+  .footer__departments{
+    display:none;
+  }
+  .footer__linksDiv{
+    display:none;
+  }
+  .footer__contactInfo{
+    display:none;
+  }
+  
+  .main__smallScreenNavg{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.5rem;
+    font-size:1.1rem;
+    cursor:pointer;
+  }
+  .footer__copyRightDiv{
+    align-items: center;
+  }
+  .footer__footerCtas{
+    gap:0.5rem;
+  }
+
+}
+
+@media(min-width:1280px){
+  body{
+    overflow-x: hidden;
+  }
+  header{
+    margin:2rem 10.5rem;
+    gap:22rem;
+  }
+  /* no need */
+  .header__logoDiv{
+    display:block;
+  }
+
+  .header__logoSmallScreenDiv{
+    display:none;
+  }  /* no need */
+
+  .header__ctasParentDiv{
+    justify-content:flex-end;
+    width:21rem;
+    gap:0.3rem;
+  }
+ 
+  /* main */
+  main{
+    margin:1rem 10.5rem;
+  }
+
+  .main__contactSection{
+    margin-top:4rem;
+  }
+
+  .main__contactDiv{
+    margin-top:1rem;
+  }
+
+  .main__inputDivs{
+    width:max-content;
+    gap:1.5rem;
+  }
+
+  input{
+    width: 28.2rem;
+    font-size:1.1rem;
+    height: 4rem;
+  }
+
+  .main__messageInput{
+    width:57.9rem;
+  }
+  .main__mapImgSide{
+    display:none;
+  }
+
+  /* additional contact info */
+  .main__additionalContactSection{
+    margin-top:5rem;
+    /* grid-template-columns: repeat(2,27.5rem); */
+    justify-content: center;
+  }
+
+  /* .additionalContainer{
+    /* width:27.5rem; 
+  } */
+
+   /* FOOTER */
+  footer{
+    padding:2rem 10.5rem;
+    margin-top:9rem;
+  }
+  .footer__navigation{
+    flex-direction:row;
+    margin-top:2rem;
+    gap:19rem;
+  }
+  .footer__departments{
+    display:none;
+  }
+  .footer__linksDiv{
+    display:none;
+  }
+  .footer__contactInfo{
+    display:none;
+  }
+  
+  .main__smallScreenNavg{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.5rem;
+    font-size:1.1rem;
+    cursor:pointer;
+  }
+  .footer__copyRightDiv{
+    align-items: center;
+  }
+  .footer__footerCtas{
+    gap:0.5rem;
+  }
+}
+
+@media(min-width:1440px){
+  body{
+    overflow-x: hidden;
+  }
+  header{
+    margin:2rem 10rem;
+    gap:12rem;
+  }
+  .header__logoDiv{
+    display:block;
+    flex:1;
+  }
+
+  .header__navBar{
+    display:flex;
+  } 
+  
+  .header__ctasParentDiv{
+    justify-content:flex-end;
+    width:21rem;
+    gap:0.5rem;
+  }
+  .heaader__appointmentDiv{
+    display:flex;
+  }
+  .header__logInDiv{
+    display:block;
+  } 
+ 
+  .header__burgerMenu{
+    display:none;
+  }
+
+  /* main */
+  main{
+    margin:1rem 10rem;
+  }
+
+  .main__contactSection{
+    margin-top:9rem;
+  }
+
+  .main__contactDiv{
+    margin-top:2rem;
+  }
+
+  .main__inputDivs{
+    width:max-content;
+    gap:1.5rem;
+  }
+
+  input{
+    width: 21.875rem;
+    font-size:1.1rem;
+    height: 4rem;
+  }
+
+  .main__messageInput{
+    width:45.25rem;
+  }
+  .main__mapImgSide{
+    display:block;
+    width:45.25rem;
+  }
+
+  /* additional contact info */
+  .main__additionalContactSection{
+    margin-top:5rem;
+     grid-template-columns: repeat(auto-fit, minmax(15.95rem, 1fr));
+    justify-content: center;
+  }
+
+  .additionalContainer{
+    width:15.95rem;
+  }
+
+   /* FOOTER */
+  footer{
+    padding:2rem 10rem;
+    margin-top:9rem;
+  }
+  .footer__navigation{
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top:2rem
+  }
+  .footer__departments{
+    display:flex;
+  }
+  .footer__linksDiv{
+    display:flex;
+  }
+  .footer__contactInfo{
+    display:flex;
+  }
+  
+  .main__smallScreenNavg{
+    display:none;
+  }
+  .footer__copyRightDiv{
+    align-items: center;
+  }
+  .footer__footerCtas{
+    gap:0.5rem;
+  }
+}

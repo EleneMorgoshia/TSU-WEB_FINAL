@@ -1,0 +1,264 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  height:100vh;
+}
+
+/* HEADER */
+header{
+  margin:2rem 10.5rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:19rem;
+}
+
+.header__logoDiv{
+  width:15rem;
+  height:2.25rem;
+}
+
+.header__navBar{
+  width:21rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+}
+
+.header__links{
+  font-size:1rem;
+  text-decoration:none;
+  color:#000;
+}
+
+.header__ctasParentDiv{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:21rem;
+  gap:1.5rem;
+}
+
+.heaader__appointmentDiv{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:0.625rem;
+  background-color: #FAFAFA;
+  gap:1rem;
+  height:2.5rem;
+  width:11.5rem;
+  font-size:1rem;
+  padding:0.5rem 1.5rem;
+  cursor:pointer;
+  transition:0.5s;
+}
+
+.header__logInDiv,.header__languageDiv {
+  background-color:  #FAFAFA;
+  padding:0.5rem;
+  width:2.5rem;
+  height:2.5rem;
+  border-radius:0.625rem;
+  cursor:pointer;
+  transition:0.5s;
+}
+
+.header__logInDiv:hover, .header__languageDiv:hover, .heaader__appointmentDiv:hover{
+  background-color: #f4f4f4;
+}
+/* MAIN */
+main{
+  margin:1rem 10.5rem;
+}
+
+.main__articlesSection{
+  margin-top:7rem;
+  display:flex;
+  flex-direction: row;
+  gap:5rem;
+}
+
+/* LEFT CONTENT */
+.main__leftContent{
+  display:flex;
+  flex-direction: column;
+  gap:4rem;
+  width:80%;
+}
+
+.main__artilceChild{
+  display:flex;
+  flex-direction: column;
+}
+
+.main__articleImg{
+  border-radius:0.675rem;
+  height:30rem;
+  object-fit: cover;
+}
+
+.main__articleInfo{
+  display:flex;
+  flex-direction: row;
+  margin-top:1rem;
+  gap:4rem;
+}
+
+.main__aboutArticle{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:0.5rem;
+}
+
+.main__articleDiv{
+  margin-top:1rem;
+  display:flex;
+  flex-direction: column;
+  gap:0.5rem;
+}
+
+.main__articleTitle{
+  font-size:1.5rem;
+}
+
+.main__article{
+  font-size:1.1rem;
+}
+/* RIGHT PART */
+.main__rightContent{
+  display:flex;
+  flex-direction: column;
+  width:20%;
+}
+
+.main__rightContentTitle{
+  font-size:1.4rem;
+}
+
+.main__popularNewsParentChild{
+  margin-top:1rem;
+  display:flex;
+  flex-direction: row;
+  gap:1rem;
+}
+
+.main__newsPopularImg{
+  width:10rem;
+  height:7rem;
+  object-fit: cover;
+  border-radius:0.675rem;
+  cursor:pointer;
+  transition:0.5s;
+}
+
+.main__newsPopularImg:hover{
+  transform: scale(1.1); 
+}
+.main__popularArticleInfo{
+  width:8rem;
+  gap:1rem;
+}
+
+.main__popularArticleTitle{
+  font-weight: bold;
+  font-size:1.2rem;
+  cursor:pointer;
+}
+
+.main__popularArticle{
+  font-size:0.9rem;
+  width:8rem;
+}
+
+
+/* FOOTER */
+
+footer{
+  background-color: #e1e1e1;
+  margin-top:9.75rem;
+  padding:2rem 10.5rem;
+  display:flex;
+  flex-direction: column;
+  gap:2rem;
+}
+
+.footer__titles{
+  text-align: center;
+  font-size:1.2rem;
+}
+.footer__navigation{
+  margin-top:2rem;
+  display:flex;
+  flex-direction: row;
+  gap:29rem;
+}
+
+.footer__linksDiv,.footer__departments{
+  display:flex;
+  flex-direction: column;
+  gap:1.1rem;
+  text-wrap: nowrap;
+}
+
+.footer__contactInfo{
+  display:flex;
+  flex-direction: column;
+  gap:1.1rem;
+}
+.contactT{
+  text-align: left;
+}
+.footer__contactInfoP{
+  font-weight: bold;
+  font-size:1.1rem;
+  text-wrap: nowrap;
+}
+
+.footer__contactInfoP span{
+  font-weight:400;
+  margin-left:0.1rem;
+}
+.footer__links,.footer_depLinks{
+  text-decoration: none;
+  color:#000;
+  font-size:1.1rem;
+  text-align: center;
+}
+
+.footer__copyRightDiv{
+  margin-top:2rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__footerCtas{
+  display:Flex;
+  flex-direction: row;
+  gap:1rem;
+}
+
+.footer__secondaryCta {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:2.5rem;
+  height:2.5rem;
+  padding: 0.5rem;
+  background-color:#eaeaea;;
+  border-radius:  0.625rem;
+  transition:0.3s;
+}
+
+.footer__secondaryCta:hover{
+  background-color: #f4f4f4;
+  cursor:pointer;
+}
